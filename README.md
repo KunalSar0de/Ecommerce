@@ -32,18 +32,16 @@ Features
 
 Getting Started :
 
-1. In terminal add this cmd
-	"git clone <repository-url>"
+1. In terminal add this cmd "git clone https://github.com/Mrks916/Ecommerce.git" to clone project.
 
-2. Install dependencies using cmd
-	"npm i"
+2. Install dependencies using cmd "npm i".
 
 3. Set up MongoDB:
-    Ensure MongoDB is running locally or update connection strings accordingly.
-	In .env file paste your connection string in place of MONGODB_URI variable
+    - Ensure MongoDB is running locally or update connection strings accordingly.
+    - In .env file paste your connection string in place of MONGODB_URI variable.
 
 4. Run the project:
-   Run cmd "cd src" in vs code terminal
-   Run cmd "node index.js"
-   Open your browser and go to http://localhost:8000
-   run swagger Api collection on this url http://localhost:8000/api-docs 
+   - Run cmd "cd src" in vs code terminal.
+   - Run cmd "node index.js".
+   - Open your browser and go to http://localhost:8000.
+   - run swagger Api collection on this url http://localhost:8000/api-docs.
