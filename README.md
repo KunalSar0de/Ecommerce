@@ -38,10 +38,12 @@ Getting Started :
 
 3. Set up MongoDB:
     - Ensure MongoDB is running locally or update connection strings accordingly.
-    - In .env file paste your connection string in place of MONGODB_URI variable.
+    - In .env file paste your connection string in place of MONGODB_URI variable. ![Alt text](image.png)
 
 4. Run the project:
    - Run cmd "cd src" in vs code terminal.
    - Run cmd "node index.js".
+   - In mongo db your database with data collections are auto created using schemas 
+   - Import master database collections from Database folder in Mongo Db. 
    - Open your browser and go to http://localhost:8000.
    - run swagger Api collection on this url http://localhost:8000/api-docs.

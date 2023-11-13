@@ -74,7 +74,7 @@
  * paths:
  *   /order/{userId}:
  *     get:
- *       description: Execute order
+ *       description: Execute orders
  *       tags: [Order Management] 
  *       parameters:
  *         - name: userId
