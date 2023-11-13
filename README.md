@@ -2,23 +2,23 @@
 Ecommerce - Node
 -------------------------------------------------------------
 
-Overview
-This Node.js project serves as the backend for an e-commerce application, providing a robust set of APIs to support various functionalities..
+Overview :
+This Node.js project serves as the backend for an e-commerce application, providing a robust set of APIs to support various functionalities.
 
 -------------------------------------------------------------
 
 Technologies Used : 
-Node.js
-MongoDB for data storage
-Express.js for API routing
+- Node.js
+- MongoDB for data storage
+- Express.js for API routing
 
 -------------------------------------------------------------
 
 
-Prerequisites
+Prerequisites :
 Make sure you have the following installed:
-Node.js
-MongoDB
+- Node.js
+- MongoDB
 
 -------------------------------------------------------------
 Features
@@ -32,7 +32,7 @@ Features
 
 Getting Started :
 
-1 . In terminal add this cmd
+1. In terminal add this cmd
 	"git clone <repository-url>"
 
 2. Install dependencies using cmd
@@ -45,7 +45,3 @@ Getting Started :
 4. Run the project:
    Run cmd "node index.js"
    Open your browser and go to http://localhost:8000
-
-
-License
-This project is licensed under the [Your License] License - see the LICENSE.md file for details.
