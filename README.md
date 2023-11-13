@@ -43,5 +43,7 @@ Getting Started :
 	In .env file paste your connection string in place of MONGODB_URI variable
 
 4. Run the project:
+   Run cmd "cd src" in vs code terminal
    Run cmd "node index.js"
    Open your browser and go to http://localhost:8000
+   run swagger Api collection on this url http://localhost:8000/api-docs 
