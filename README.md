@@ -1,1 +1,51 @@
-# Ecommerce
+-------------------------------------------------------------
+Ecommerce - Node
+-------------------------------------------------------------
+
+Overview
+This Node.js project serves as the backend for an e-commerce application, providing a robust set of APIs to support various functionalities..
+
+-------------------------------------------------------------
+
+Technologies Used : 
+Node.js
+MongoDB for data storage
+Express.js for API routing
+
+-------------------------------------------------------------
+
+
+Prerequisites
+Make sure you have the following installed:
+Node.js
+MongoDB
+
+-------------------------------------------------------------
+Features
+- Product Management: Add, update, and retrieve product details.
+- User Authentication: Secure user authentication for a personalized shopping experience.
+- Order Processing: Handle order creation, tracking, and management.
+- Cart Functionality: Allow users to add/remove items from their shopping cart.
+- Category Management: Organize products into categories for easy navigation.
+
+-------------------------------------------------------------
+
+Getting Started :
+
+1 . In terminal add this cmd
+	"git clone <repository-url>"
+
+2. Install dependencies using cmd
+	"npm i"
+
+3. Set up MongoDB:
+    Ensure MongoDB is running locally or update connection strings accordingly.
+	In .env file paste your connection string in place of MONGODB_URI variable
+
+4. Run the project:
+   Run cmd "node index.js"
+   Open your browser and go to http://localhost:8000
+
+
+License
+This project is licensed under the [Your License] License - see the LICENSE.md file for details.

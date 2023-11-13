@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "654b5a53ab0161054770155f"
+  },
+  "title": "Electronics",
+  "createdAt": "2023-11-08T09:00:00.000Z",
+  "updatedAt": "2023-11-08T09:00:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701560"
+  },
+  "title": "Home Appliances",
+  "createdAt": "2023-11-08T09:15:00.000Z",
+  "updatedAt": "2023-11-08T09:15:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701561"
+  },
+  "title": "Books",
+  "createdAt": "2023-11-08T09:30:00.000Z",
+  "updatedAt": "2023-11-08T09:30:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701562"
+  },
+  "title": "Gaming",
+  "createdAt": "2023-11-08T09:45:00.000Z",
+  "updatedAt": "2023-11-08T09:45:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701563"
+  },
+  "title": "Fashion",
+  "createdAt": "2023-11-08T10:00:00.000Z",
+  "updatedAt": "2023-11-08T10:00:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701564"
+  },
+  "title": "Groceries",
+  "createdAt": "2023-11-08T10:15:00.000Z",
+  "updatedAt": "2023-11-08T10:15:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701565"
+  },
+  "title": "Sports Equipment",
+  "createdAt": "2023-11-08T10:30:00.000Z",
+  "updatedAt": "2023-11-08T10:30:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701566"
+  },
+  "title": "Health & Beauty",
+  "createdAt": "2023-11-08T10:45:00.000Z",
+  "updatedAt": "2023-11-08T10:45:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701567"
+  },
+  "title": "Toys & Games",
+  "createdAt": "2023-11-08T11:00:00.000Z",
+  "updatedAt": "2023-11-08T11:00:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "654b5a53ab01610547701568"
+  },
+  "title": "Office Supplies",
+  "createdAt": "2023-11-08T11:15:00.000Z",
+  "updatedAt": "2023-11-08T11:15:00.000Z"
+}]

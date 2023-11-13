@@ -1,0 +1,282 @@
+[{
+  "_id": {
+    "$oid": "654b5db9ab0161054770156b"
+  },
+  "title": "4K LED Smart TV",
+  "price": 1200,
+  "description": "55-inch 4K LED smart TV with HDR and built-in streaming apps.",
+  "categoryId": {
+    "$oid": "654b5a53ab0161054770155f"
+  },
+  "quantity": 20,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770156c"
+  },
+  "title": "Wireless Earbuds",
+  "price": 150,
+  "description": "Compact and water-resistant wireless earbuds with noise-cancellation.",
+  "categoryId": {
+    "$oid": "654b5a53ab0161054770155f"
+  },
+  "quantity": 50,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770156d"
+  },
+  "title": "Espresso Machine",
+  "price": 300,
+  "description": "Automatic espresso machine with customizable settings and durable design.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701560"
+  },
+  "quantity": 15,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770156e"
+  },
+  "title": "E-Reader",
+  "price": 130,
+  "description": "Lightweight e-reader with e-ink display and one-month battery life.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701561"
+  },
+  "quantity": 30,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770156f"
+  },
+  "title": "Action Video Game",
+  "price": 60,
+  "description": "High-adrenaline action game for the latest console generation.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701562"
+  },
+  "quantity": 100,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701570"
+  },
+  "title": "Designer Sneakers",
+  "price": 220,
+  "description": "Limited edition designer sneakers with exceptional comfort and style.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701563"
+  },
+  "quantity": 25,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701571"
+  },
+  "title": "Organic Almonds",
+  "price": 10,
+  "description": "1lb bag of organic almonds, perfect for snacking and cooking.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701564"
+  },
+  "quantity": 197,
+  "availability": true,
+  "updatedAt": {
+    "$date": "2023-11-13T10:22:09.422Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701572"
+  },
+  "title": "Yoga Mat",
+  "price": 35,
+  "description": "Eco-friendly yoga mat with non-slip surface for optimal grip.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701565"
+  },
+  "quantity": 40,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701573"
+  },
+  "title": "Moisturizing Cream",
+  "price": 25,
+  "description": "Deep hydrating face cream with natural ingredients for all skin types.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701566"
+  },
+  "quantity": 50,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701574"
+  },
+  "title": "Board Game",
+  "price": 50,
+  "description": "Family-friendly board game with educational and entertaining elements.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701567"
+  },
+  "quantity": 30,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701575"
+  },
+  "title": "Office Chair",
+  "price": 250,
+  "description": "Ergonomic office chair with lumbar support and adjustable height.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701568"
+  },
+  "quantity": 10,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701576"
+  },
+  "title": "Bluetooth Speaker",
+  "price": 120,
+  "description": "Portable Bluetooth speaker with 360-degree sound and deep bass.",
+  "categoryId": {
+    "$oid": "654b5a53ab0161054770155f"
+  },
+  "quantity": 35,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701577"
+  },
+  "title": "Fitness Tracker",
+  "price": 99.99,
+  "description": "Advanced fitness tracker with heart rate monitor and GPS.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701565"
+  },
+  "quantity": 60,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701578"
+  },
+  "title": "Air Fryer",
+  "price": 100,
+  "description": "Digital air fryer for healthy cooking, with preset functions and easy cleaning.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701560"
+  },
+  "quantity": 23,
+  "availability": true,
+  "updatedAt": {
+    "$date": "2023-11-13T09:34:40.273Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab01610547701579"
+  },
+  "title": "Historical Novel",
+  "price": 20,
+  "description": "Engrossing historical novel set in medieval times, hardcover edition.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701561"
+  },
+  "quantity": 80,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770157a"
+  },
+  "title": "Video Game Console",
+  "price": 500,
+  "description": "Latest generation gaming console with 1TB storage capacity.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701562"
+  },
+  "quantity": 15,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770157b"
+  },
+  "title": "Summer Dress",
+  "price": 89.99,
+  "description": "Floral print summer dress, made with breathable cotton fabric.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701563"
+  },
+  "quantity": 39,
+  "availability": true,
+  "updatedAt": {
+    "$date": "2023-11-13T09:34:40.277Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770157c"
+  },
+  "title": "Whole Bean Coffee",
+  "price": 15,
+  "description": "Premium arabica whole bean coffee, dark roast, 2lb bag.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701564"
+  },
+  "quantity": 150,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770157d"
+  },
+  "title": "Protein Powder",
+  "price": 45,
+  "description": "Whey protein powder with 24g protein per serving, chocolate flavor.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701566"
+  },
+  "quantity": 75,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770157e"
+  },
+  "title": "Children's Puzzle",
+  "price": 15,
+  "description": "Educational puzzle for children, ages 3+, featuring animal shapes.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701567"
+  },
+  "quantity": 100,
+  "availability": true
+},
+{
+  "_id": {
+    "$oid": "654b5db9ab0161054770157f"
+  },
+  "title": "Mechanical Keyboard",
+  "price": 130,
+  "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+  "categoryId": {
+    "$oid": "654b5a53ab01610547701568"
+  },
+  "quantity": 25,
+  "availability": true
+}]
