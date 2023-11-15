@@ -74,7 +74,7 @@
  * paths:
  *   /order/{userId}:
  *     get:
- *       description: Execute orders
+ *       description: Get all orders
  *       tags: [Order Management] 
  *       parameters:
  *         - name: userId
@@ -84,7 +84,6 @@
  *             type: string
  *       security:
  *         - BearerAuth: []
- *       responses:
  *       responses:
  *         '200':
  *           content:

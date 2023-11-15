@@ -28,7 +28,7 @@ const getProductsBasedOnCategoryId = asyncHandler(async (req, res) => {
 	try {
 		const reqCategoryId = req.params.categoryId;
 		validateMongoDbId(reqCategoryId);
-		const productsBasedOnCategory =  await Product.find({ categoryId: req.params.categoryId }, 'title price description availability _id');		
+		const productsBasedOnCategory =  await Product.find({ categoryId: req.params.categoryId , availability : true}, 'title price description availability _id');		
 		
 		if(!productsBasedOnCategory)
 		{
