@@ -8,6 +8,7 @@ const loginRoute = require("./Routes/loginRoute");
 const cartRoute = require("./Routes/cartRoute");
 const orderRoute = require("./Routes/orderRoute");
 const productRoute = require("./Routes/productRoute");
+const userRoute = require("./Routes/userRoute");
 const productCategoryRoute = require("./Routes/productCategoryRoute");
 
 const dotEnv = require("dotenv").config();
@@ -15,7 +16,6 @@ const dotEnv = require("dotenv").config();
 const { notFound, errorHandler } = require("./Middleware/errorHandler");
 
 //swagger
-const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 const swaggerSpecification = require('./Helpers/swaggerHelper');
 
@@ -31,7 +31,9 @@ const initialize = async (callback) => {
 	app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecification));
 	app.use(bodyParser.json());
 	app.use(bodyParser.urlencoded({ extended: false }));
+
 	app.use("/session", loginRoute);
+	app.use("/user", userRoute);
 	app.use("/product", productRoute);
 	app.use("/cart", cartRoute);
 	app.use("/order", orderRoute);
