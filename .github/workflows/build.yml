@@ -6,7 +6,7 @@ on:
 jobs:
   build-node:
     runs-on: ubuntu-latest
-    container: node:14
+    container: node:16
     steps:
       - name: Check Node.js version
         run: node --version
