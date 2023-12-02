@@ -8,4 +8,5 @@ jobs:
       - run: npm --version
       - uses: actions/checkout@v3
       - run: npm i
-      - run: node ./Ecommerce/src/index.js
+      - cd src/
+      - run: node index.js
