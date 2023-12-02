@@ -1,12 +1,16 @@
-on: push
-jobs:
-  build-node:
-    runs-on: ubuntu-latest
-    container: node:14
-    steps:
-      - run: node --version
-      - run: npm --version
-      - uses: actions/checkout@v3
-      - run: npm i
-      - cd src/
-      - run: node index.js
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - apt-get install zip
+      - apt-get install libfontconfig
+      - apt-get install libfreetype6
+    runtime-versions:
+      nodejs: 16
+  build:
+    commands:
+      - ls -R
+      - npm install
+      - cd src
+      - node index.js
