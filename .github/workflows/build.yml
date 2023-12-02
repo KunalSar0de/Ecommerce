@@ -1,16 +1,32 @@
-on: push
+on: 
+  push:
+    branches:
+      - main # Or whatever your main branch is called
+
 jobs:
   build-node:
     runs-on: ubuntu-latest
     container: node:14
     steps:
-      - run: node --version
-      - run: npm --version
-      - uses: actions/checkout@v3
-      - run: npm i
-      - run: cd src
+      - name: Check Node.js version
+        run: node --version
+
+      - name: Check npm version
+        run: npm --version
+
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Change to src directory
+        run: cd src
+
       - name: Store current directory
-          run: |
-            current_dir=$(pwd)
-            echo "Current directory: ${current_dir}"
-      - run: node Index.js
+        run: |
+          current_dir=$(pwd)
+          echo "Current directory: ${current_dir}"
+
+      - name: Run Node.js script
+        run: node Index.js
