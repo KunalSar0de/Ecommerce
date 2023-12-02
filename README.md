@@ -38,7 +38,7 @@ Getting Started :
 
 3. Set up MongoDB:
     - Ensure MongoDB is running locally or update connection strings accordingly.
-    - In .env file paste your connection string in place of MONGODB_URI variable. ![Alt text](image.png)
+    - In .env file paste your connection string in place of MONGODB_URI variable.
 
 4. Run the project:
    - Run cmd "cd src" in vs code terminal.
