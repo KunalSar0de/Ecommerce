@@ -29,4 +29,4 @@ jobs:
           echo "Current directory: ${current_dir}"
 
       - name: Run Node.js script
-        run: node Index.js
+        run: node src/Index.js
