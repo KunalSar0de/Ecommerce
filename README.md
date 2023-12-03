@@ -42,7 +42,7 @@ Getting Started :
 
 4. Run the project:
    - Run cmd "cd src" in vs code terminal.
-   - Run cmd "node index.js".
+   - Run cmd "node Index.js".
    - In mongo db your database with data collections are auto created using schemas 
    - Import master database collections from Database folder in Mongo Db. 
    - Open your browser and go to http://localhost:8000.
