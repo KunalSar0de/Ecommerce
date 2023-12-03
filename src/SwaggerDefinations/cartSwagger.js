@@ -33,11 +33,13 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               example:
  *                 message: 200 Ok
  *         '401':
+ *           description: Unauthorized
  *           content:
  *             application/json:
  *               example:
@@ -66,6 +68,7 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               schema:
@@ -132,6 +135,7 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               schema:
@@ -191,6 +195,7 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               example:

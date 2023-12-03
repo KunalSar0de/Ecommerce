@@ -12,11 +12,13 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               example:
  *                 message: 200 Ok
  *         '401':
+ *           description: Unauthorized
  *           content:
  *             application/json:
  *               example:
@@ -40,15 +42,19 @@
  *           in: path
  *           description: Category Id
  *           required: true
+ *           schema: 
+ *             type: string
  *       security:
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               example:
  *                 message: 200 Ok
  *         '401':
+ *           description: Unauthorized
  *           content:
  *             application/json:
  *               example:
@@ -72,15 +78,19 @@
  *           in: path
  *           description: Product Id
  *           required: true
+ *           schema:
+ *             type: string
  *       security:
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               example:
  *                 message: 200 Ok
  *         '401':
+ *           description: Unauthorized
  *           content:
  *             application/json:
  *               example:
@@ -103,11 +113,13 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               example:
  *                 message: 200 Ok
  *         '401':
+ *           description: Unauthorized
  *           content:
  *             application/json:
  *               example:
@@ -152,6 +164,7 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               schema:
@@ -168,6 +181,7 @@
  *                   availability:
  *                     type: boolean
  *         '401':
+ *           description: Unauthorized
  *           content:
  *             application/json:
  *               example:
@@ -216,11 +230,13 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful response
  *           content:
  *             application/json:
  *               example:
  *                 message: 200 Ok
  *         '401':
+ *           description: Unauthorized
  *           content:
  *             application/json:
  *               example:
@@ -249,11 +265,13 @@
  *         - BearerAuth: []
  *       responses:
  *         '200':
+ *           description: Successful deletion
  *           content:
  *             application/json:
  *               example:
  *                 message: 200 Ok
  *         '401':
+ *           description: Unauthorized
  *           content:
  *             application/json:
  *               example:

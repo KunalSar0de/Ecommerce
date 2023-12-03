@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6551f5f4d39c7d8e1462e5cc"
+  },
+  "userName": "Kunal916",
+  "password": "$2b$10$MkmNM9OUwgsMGG0.JkSIZesjw6NSl4IGesfMtaCQap9tIcITUFieq",
+  "userType": "ADMIN",
+  "profile": {
+    "firstName": "Kunal",
+    "lastName": "Sarode",
+    "email": "kunal.sarode@mailinator.com",
+    "phoneNumber": "9789565434"
+  },
+  "address": {
+    "addressLine1": "123 Main St",
+    "addressLine2": "Apt 4",
+    "pinCode": "123456",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  "isActive": true,
+  "createdOn": {
+    "$date": "2023-11-05T00:00:00.000Z"
+  },
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-11-13T10:09:56.841Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-13T10:09:56.841Z"
+  },
+  "__v": 0
+}]
