@@ -23,8 +23,8 @@ const options = {
 		},
 		servers: [
 			{
-				url: 'http://localhost:8000',
-				description: 'Local server'
+				url: process.env.SERVER_URL,
+				description: process.env.SERVER_DESC
 			},
 		],
 	},
