@@ -23,7 +23,7 @@ const options = {
 		},
 		servers: [
 			{
-				url: process.env.SERVER_URL,
+				url: process.env.CYCLIC_URL,
 				description: process.env.SERVER_DESC
 			},
 		],
