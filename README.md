@@ -47,3 +47,7 @@ Getting Started :
    - Import master database collections from Database folder in Mongo Db. 
    - Open your browser and go to http://localhost:8000.
    - run swagger Api collection on this url http://localhost:8000/api-docs.
+  
+5. Live project link
+   - Try out this postman collection to test apis on liver server
+   - Postman Collection : https://documenter.getpostman.com/view/31560668/2s9YeK4qP5
